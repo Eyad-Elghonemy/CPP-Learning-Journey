@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <!-- Dark Mode Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+
+    <!-- C++ Journey Gradient (Official Deep Blue to Neon Cyan) -->
+    <linearGradient id="cpp-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00599C" />
+      <stop offset="100%" stop-color="#00B4D8" />
+    </linearGradient>
+
+    <!-- Passing Green Gradient (Syntax Check Passing / Growth) -->
+    <linearGradient id="green-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2EA043" />
+      <stop offset="100%" stop-color="#3FB950" />
+    </linearGradient>
+
+    <!-- Subtle Dot Pattern for Data Structures Background -->
+    <pattern id="dot-grid" x="0" y="0" width="48" height="48" patternUnits="userSpaceOnUse">
+      <circle cx="24" cy="24" r="2" fill="#FFFFFF" opacity="0.04" />
+    </pattern>
+  </defs>
+
+  <!-- Square Canvas with rounded corners (App Icon Style) -->
+  <rect width="1024" height="1024" fill="url(#bg-grad)" rx="225" />
+  <rect width="1024" height="1024" fill="url(#dot-grid)" rx="225" />
+
+  <g transform="translate(10, 0)">
+    <!-- The 'C' Path (Continuous Learning Journey) -->
+    <path d="M 420 280 C 130 280, 130 744, 420 744" 
+          fill="none" 
+          stroke="url(#cpp-grad)" 
+          stroke-width="72" 
+          stroke-linecap="round" />
+
+    <!-- Nodes representing Data Structures & Folders Progress -->
+    <!-- Top Node -->
+    <circle cx="420" cy="280" r="28" fill="#0F172A" stroke="#00599C" stroke-width="16" />
+    <!-- Middle Node (Mathematically centered on the bezier curve) -->
+    <circle cx="202.5" cy="512" r="28" fill="#090E1A" stroke="#0087BA" stroke-width="16" />
+    <!-- Bottom Node -->
+    <circle cx="420" cy="744" r="28" fill="#020617" stroke="#00B4D8" stroke-width="16" />
+
+    <!-- The First '+' (Standard C++ symbol) -->
+    <g stroke="#00B4D8" stroke-width="60" stroke-linecap="round">
+      <path d="M 500 512 L 640 512" />
+      <path d="M 570 442 L 570 582" />
+    </g>
+
+    <!-- The Second '+' (Progress & Actively Learning Arrow) -->
+    <g stroke="url(#green-grad)" stroke-width="60" stroke-linecap="round" stroke-linejoin="round">
+      <!-- Horizontal Bar -->
+      <path d="M 720 512 L 860 512" />
+      <!-- Vertical Arrow Stem -->
+      <path d="M 790 410 L 790 582" />
+      <!-- Upward Arrowhead (Chevron) -->
+      <path d="M 730 470 L 790 410 L 850 470" fill="none" />
+    </g>
+  </g>
+</svg>
