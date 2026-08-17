@@ -11,7 +11,6 @@
 [![Status](https://img.shields.io/badge/Status-Actively%20Learning-brightgreen)](.)
 [![Compiler](https://img.shields.io/badge/Compiler-g%2B%2B%2013-A42E2B?logo=gnu&logoColor=white)](https://gcc.gnu.org/)
 [![Build](https://img.shields.io/badge/Syntax%20Check-Passing-success)](.)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 
 </div>
 
