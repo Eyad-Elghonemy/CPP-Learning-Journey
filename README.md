@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="logo.png" alt="Logo" width="120" />
+<img src="logo.svg" alt="Logo" width="120" />
 
 # CPP-Learning-Journey
 **A structured, fully-organized archive of my C++ learning journey — from raw syntax to OOP, operator overloading, inheritance, data structures, and real mini projects.**
